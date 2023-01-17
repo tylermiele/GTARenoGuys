@@ -475,32 +475,32 @@ header {
 
 .s1 {
     grid-area: s1;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 .s2 {
     grid-area: s2;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 .s3 {
     grid-area: s3;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 .s4 {
     grid-area: s4;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 .s5 {
     grid-area: s5;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 .s6 {
     grid-area: s6;
-    background-image: url('/img/service-1.jpg');
+    background-image: url('../img/service-1.jpg');
 }
 
 /* about page */
