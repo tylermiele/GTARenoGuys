@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="GTA Reno Guys - The best general contracting in the GTA.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRG | Contact Us</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gantari:wght@400;700&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-notext.png" alt="GRG Logo" /></a>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="services">
+                    <a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                        <li><a href="#">Service 3</a></li>
+                        <li><a href="#">Service 4</a></li>
+                        <li><a href="#">Service 5</a></li>
+                        <li><a href="#">Service 6</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html" class="active-link">Contact Us</a></li>
+                <li><a href="Tel:289-338-2025" class="phone-link"><i class="fa-solid fa-phone"></i> 289-555-2025</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="button-open" aria-controls="primary-navigation" >
+            <svg fill="var(--black)" class="hamburger" viewBox="0 0 100 100" width="40">
+                <rect class="line top" width="80" height="10" x="10" y="30" rx="5">
+                </rect>
+                <rect class="line middle" width="80" height="10" x="10" y="50" rx="5">
+                </rect>
+                <rect class="line bottom" width="80" height="10" x="10" y="70" rx="5">
+                </rect>
+            </svg>
+        </button>
+        <dialog class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li id="services"><a href="#">Services</a>
+                </li>
+                <li><a href="contact.html" class="active-link">Contact Us</a></li>
+                <li><a href="Tel:289-338-2025" class="phone-link"><i class="fa-solid fa-phone"></i> 289-555-2025</a>
+                </li>
+            </ul>
+            <button class="button-close" aria-controls="primary-navigation">
+                <svg fill="var(--white)" class="hamburger" viewBox="0 0 100 100" width="40">
+                    <rect class="line top" width="80" height="10" x="10" y="30" rx="5">
+                    </rect>
+                    
+                    <rect class="line bottom" width="80" height="10" x="10" y="70" rx="5">
+                    </rect>
+                </svg>
+            </button>
+        </dialog>
+    </header>
+    <main>
+        <div class="content-masthead contact-m">
+            
+        </div>
+        <div class="contact-container" >
+            <div class="title">
+                <h2 >Contact Us</h2>
+            </div>
+            <form class="contact-form" action="process-email.php" method="post">
+                <div class="contact-names flex">
+                    <input type="text" name="fName" id="fName" placeholder="First Name" />
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" />
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="contact-names-mobile flex">
+                    <input type="text" name="fName" id="fName" placeholder="First Name" />
+                </div>
+                <div class="contact-names-mobile flex">
+                    <input type="text" name="lName" id="lName" placeholder="Last Name" />
+                </div>
+                <div class="contact-names-mobile flex">
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="contact-job flex">
+                    <input type="text" name="subject" id="subject"
+                        placeholder="Type of Service (Ex. Bathroom, Tiles, Framing, Drywall, etc.)">
+                </div>
+                <div class="contact-job flex">
+                    <textarea rows="8" name="description" id="description"
+                        placeholder="Full Description of Service Needed (1000 Characters)" maxlength="1000"></textarea>
+                </div>
+                <div class="contact-btns flex">
+                    <button type="reset" class="btn clear">Clear</button>
+                    <button type="submit" class="btn submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="divider-container divider-2">
+            <div class="divider-overlay flex">
+                <div class="title">
+                    <h2>Quality Gaurenteed</h2>
+                </div>
+                <a href="services.html" class="divider-btn">See Our Services</a>
+            </div>
+        </div>
+    </main>
+
+    <a href="#top" class="back-top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <footer class="flex">
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-notext.png" alt="GRG Logo" /></a>
+            <p><small>Copyright © 2022 GTA Reno Guys</small></p>
+        </div>
+        <nav class="main-nav footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="social-container">
+            <div class="socials-contact flex">
+                <a class="socials-link" href="Tel:289-338-2025"><i class="fa-solid fa-phone"></i> 289-555-2025</a>
+                <a class="socials-link" href="Tel:416-200-7474"><i class="fa-solid fa-envelope"></i> gtarenoguys@gmail.com</a>
+                <a class="socials-link" href="#"><i class="fa-brands fa-instagram"></i> @gtarenoguys</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
